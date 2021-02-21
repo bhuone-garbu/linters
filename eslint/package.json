@@ -3,7 +3,7 @@
   "name": "@bhuone-garbu/eslint-config",
   "main": "javascript-only.js",
   "files": [
-    "rules",
+    "common",
     "javascript-only.js",
     "typescript-only.js",
     "react-javascript.js",
