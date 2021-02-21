@@ -1,11 +1,15 @@
-module.exports = {
+const rule = {
   arrowParens: 'avoid',
   bracketSpacing: true,
   jsxBracketSameLine: false,
   jsxSingleQuote: false,
-  printWidth: 80,
+  printWidth: 100,
   quoteProps: 'as-needed',
   semi: true,
   singleQuote: true,
   useTabs: false,
+}
+
+module.exports = {
+  'prettier/prettier': ['error', rule]
 };
