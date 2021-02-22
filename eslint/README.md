@@ -25,10 +25,10 @@ For React:
 }
 ```
 
-For TypeScript projects, install one more package:
+For TypeScript projects, install:
 
 ```
-npm install -D @typescript-eslint/eslint-plugin
+npm install -D typescript @typescript-eslint/eslint-plugin
 ```
 
 Typescript only project:
