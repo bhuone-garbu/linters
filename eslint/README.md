@@ -28,19 +28,27 @@ For React:
 For TypeScript projects, install one more package:
 
 ```
-npm install -D eslint-config-airbnb-typescript
+npm install -D @typescript-eslint/eslint-plugin
 ```
 
 Typescript only project:
 ```
 {
-  "extends": "@bhuone/eslint-config/typescript-only"
+  "extends": "@bhuone/eslint-config/typescript-only",
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
 ```
 
 For React/TypeScript:
 ```
 {
-  "extends": "@bhuone/eslint-config/typescript-react"
+  "extends": "@bhuone/eslint-config/typescript-react",
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
 ```
