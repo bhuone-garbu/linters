@@ -10,6 +10,11 @@
     "typescript-only.js",
     "typescript-react.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhuone-garbu/linters",
+    "directory": "eslint"
+  },
   "peerDependencies": {
     "eslint": "^7.20.0",
     "eslint-config-airbnb": "18.1.0",
