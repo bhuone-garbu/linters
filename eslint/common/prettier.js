@@ -1,5 +1,4 @@
 const rule = {
-  arrowParens: 'avoid',
   bracketSpacing: true,
   jsxBracketSameLine: false,
   jsxSingleQuote: false,

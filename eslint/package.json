@@ -1,18 +1,25 @@
 {
   "version": "1.0.0",
-  "name": "@bhuone-garbu/eslint-config",
+  "name": "@bhuone/eslint-config",
+  "author": "https://github.com/bhuone-garbu",
   "main": "javascript-only.js",
   "files": [
     "common",
     "javascript-only.js",
+    "javascript-react.js",
     "typescript-only.js",
-    "react-javascript.js",
-    "react-typescript.js"
+    "typescript-react.js"
   ],
-  "dependencies": {
+  "peerDependencies": {
+    "eslint": "^7.20.0",
     "eslint-config-airbnb": "18.1.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-config-airbnb-typescript": "8.0.2",
-    "eslint-config-prettier": "6.11.0"
-  }
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-sort-keys-fix": "^1.1.1",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {}
 }
