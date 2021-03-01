@@ -14,6 +14,7 @@ npx install-peerdeps -D @bhuone/eslint-config
 Create `.eslintrc.json` at the root of the project and add the extends rule.
 
 ### For JavaScript only project
+`.eslintrc.json`
 ```
 {
   "extends": "@bhuone/eslint-config/javascript-only"
@@ -26,7 +27,7 @@ Create `.eslintrc.json` at the root of the project and add the extends rule.
 npm install -D typescript eslint-config-airbnb-typescript @typescript-eslint/eslint-plugin
 ```
 
-`eslintrc.json`
+`.eslintrc.json`
 ```
 {
   "extends": "@bhuone/eslint-config/typescript-only",
@@ -43,7 +44,7 @@ npm install -D typescript eslint-config-airbnb-typescript @typescript-eslint/esl
 npm install -D eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
 ```
 
-`eslintrc.json`
+`.eslintrc.json`
 ```
 {
   "extends": "@bhuone/eslint-config/javascript-react"
@@ -56,7 +57,7 @@ npm install -D eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-ho
 npm install -D typescript eslint-config-airbnb-typescript @typescript-eslint/eslint-plugin eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
 ```
 
-`eslintrc.json`
+`.eslintrc.json`
 ```
 {
   "extends": "@bhuone/eslint-config/typescript-react",

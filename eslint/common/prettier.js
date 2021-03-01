@@ -6,6 +6,7 @@ const rule = {
   quoteProps: 'as-needed',
   semi: true,
   singleQuote: true,
+  trailingComma: 'all',
   useTabs: false,
 }
 
