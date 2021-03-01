@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.1.0",
   "name": "@bhuone/eslint-config",
   "author": "https://github.com/bhuone-garbu",
   "main": "javascript-only.js",
