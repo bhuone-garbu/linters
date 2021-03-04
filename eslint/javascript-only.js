@@ -7,7 +7,7 @@ module.exports = {
   extends: ['eslint-config-airbnb-base', 'prettier'],
   plugins: ['prettier', 'sort-keys-fix'],
   rules: {
-    ...require('./common/base'),
-    ...require('./common/prettier')
+    ...require('./common-rules/base'),
+    ...require('./common-rules/prettier')
   }
 };

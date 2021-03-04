@@ -1,10 +1,10 @@
-Based on eslint settings that I like using for JavaScript|TypeScript with|without React projects.
+Extended from eslint-config-airbnb and [style-guide](https://github.com/airbnb/javascript)
 
 ## Installation
 
 ```
-npm install -D @bhuone/eslint-config
 npx install-peerdeps -D @bhuone/eslint-config
+npm install -D @bhuone/eslint-config
 ```
 
 `install-peerdeps` will install the common required packages for all types of projects.

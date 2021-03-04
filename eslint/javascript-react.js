@@ -12,8 +12,8 @@ module.exports = {
   ],
   plugins: ['prettier', 'sort-keys-fix'],
   rules: {
-    ...require('./common/base'),
-    ...require('./common/react'),
-    ...require('./common/prettier')
+    ...require('./common-rules/base'),
+    ...require('./common-rules/react'),
+    ...require('./common-rules/prettier')
   }
 };

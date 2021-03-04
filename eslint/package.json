@@ -4,7 +4,7 @@
   "author": "https://github.com/bhuone-garbu",
   "main": "javascript-only.js",
   "files": [
-    "common",
+    "common-rules",
     "javascript-only.js",
     "javascript-react.js",
     "typescript-only.js",

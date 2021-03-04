@@ -14,10 +14,10 @@ module.exports = {
   ],
   plugins: ['prettier', 'sort-keys-fix'],
   rules: {
-    ...require('./common/base'),
-    ...require('./common/react'),
-    ...require('./common/prettier'),
-    ...require('./common/typescript'),
+    ...require('./common-rules/base'),
+    ...require('./common-rules/react'),
+    ...require('./common-rules/prettier'),
+    ...require('./common-rules/typescript'),
     'react/prop-types': 'off',
     'react/require-default-props': 'off'
   }
