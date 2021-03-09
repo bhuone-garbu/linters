@@ -2,7 +2,7 @@ const rule = {
   bracketSpacing: true,
   jsxBracketSameLine: false,
   jsxSingleQuote: false,
-  printWidth: 100,
+  printWidth: 90,
   quoteProps: 'as-needed',
   semi: true,
   singleQuote: true,
