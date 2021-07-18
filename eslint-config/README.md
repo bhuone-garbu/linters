@@ -1,4 +1,9 @@
-Extended from eslint-config-airbnb and [style-guide](https://github.com/airbnb/javascript)
+Extended from Airbnb ESLint config preset but adds Prettier.
+
+For documentation on these rules see:
+
+https://github.com/airbnb/javascript
+https://github.com/airbnb/javascript/tree/master/react
 
 ## Installation
 
@@ -14,7 +19,9 @@ npm install -D @bhuone/eslint-config
 Create `.eslintrc.json` at the root of the project and add the extends rule.
 
 ### For JavaScript only project
+
 `.eslintrc.json`
+
 ```
 {
   "extends": "@bhuone/eslint-config/javascript-only"
@@ -28,6 +35,7 @@ npm install -D typescript eslint-config-airbnb-typescript @typescript-eslint/esl
 ```
 
 `.eslintrc.json`
+
 ```
 {
   "extends": "@bhuone/eslint-config/typescript-only",
@@ -45,6 +53,7 @@ npm install -D eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-ho
 ```
 
 `.eslintrc.json`
+
 ```
 {
   "extends": "@bhuone/eslint-config/javascript-react"
@@ -58,6 +67,7 @@ npm install -D typescript eslint-config-airbnb-typescript @typescript-eslint/esl
 ```
 
 `.eslintrc.json`
+
 ```
 {
   "extends": "@bhuone/eslint-config/typescript-react",

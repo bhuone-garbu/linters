@@ -17,3 +17,7 @@ TEST*.xml
 .DS_Store
 
 .env
+
+# archives
+*.zip
+*.tgz
