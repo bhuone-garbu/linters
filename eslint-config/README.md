@@ -2,8 +2,8 @@ Extended from Airbnb ESLint config preset but adds Prettier.
 
 For documentation on these rules see:
 
-https://github.com/airbnb/javascript
-https://github.com/airbnb/javascript/tree/master/react
+- https://github.com/airbnb/javascript
+- https://github.com/airbnb/javascript/tree/master/react
 
 ## Installation
 
