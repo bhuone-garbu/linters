@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "name": "@bhuone/prettier-config",
+  "author": "https://github.com/bhuone-garbu",
+  "main": "index.js",
+  "description": "reusable prettier config",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhuone-garbu/linters.git",
+    "directory": "prettier-config"
+  },
+  "peerDependencies": {
+    "prettier": "2.3.2"
+  }
+}

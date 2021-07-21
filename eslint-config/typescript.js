@@ -8,7 +8,6 @@ module.exports = {
     'eslint-config-airbnb-typescript/base',
     'plugin:@typescript-eslint/recommended',
     'prettier',
-    'prettier/@typescript-eslint',
   ],
   plugins: ['prettier', 'sort-keys-fix'],
   rules: {
