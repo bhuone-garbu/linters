@@ -1,4 +1,4 @@
-Reusable prettier config settings
+# Reusable prettier config settings
 
 ## Why
 
